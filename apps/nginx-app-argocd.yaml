@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: file:///home/deceuma/gitops-lab
-    targetRevision: HEAD
+    repoURL: https://github.com/maartendc-dev/gitops-lab.git
+    targetRevision: main
     path: apps/nginx
   destination:
     server: https://kubernetes.default.svc
